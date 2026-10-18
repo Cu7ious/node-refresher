@@ -14,6 +14,6 @@ app.get("/", (_req, res) => {
 
 app.listen({ port, host }, () => {
   console.log(
-    `Server is running on http://${process.env.HOST}:${process.env.PORT}`,
+    `Express server is running on http://${process.env.HOST}:${process.env.PORT}`,
   );
 });
